@@ -192,7 +192,7 @@ def run_websockets():
     server.connect('tcp://127.0.0.1:5556')
 
     host = '0.0.0.0'
-    port = 7000
+    port = 80
 
     print "Listening for connections on %s:%s" % (host, port)
 
